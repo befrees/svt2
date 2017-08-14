@@ -1287,9 +1287,27 @@ section {
         max-width: 640px;
     }
 }
-
+@media screen and (min-width: 320px) and (max-width: 959px) {
+    #benefits {
+        .list-priory {
+            width: 100%;
+            max-width: 100%;
+            margin: 0;
+            .part {
+                max-width: 100%;
+            }
+        }
+    }
+    
+}
 #benefits .part:first-child>div {
     height: 240px;
+    @media screen and (min-width: 320px) and (max-width: 959px) {
+
+        & {
+            height: 50vw;
+        }
+    }
 }
 
 #benefits .part:first-child>.sign {

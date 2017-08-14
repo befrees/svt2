@@ -65,7 +65,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </section>
 
     <section id="benefits">
-        <div class="wrap">
+        <div class="wrap list-priory">
             <div class="box_grid">
                 <div class="part">
                     <div class="item left _b1">
