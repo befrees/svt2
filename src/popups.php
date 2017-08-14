@@ -75,54 +75,7 @@
 			</form>
 		</div>
 	</div>
-<?php /*
-	<div class="popup" data-name="require_watch">
-		<div class="sprite popupCloseBTN"></div>
-		<h2><span>записаться на просмотр</span></h2>
-		<div class="content">
-			<form action="" method="post">				
-				<fieldset>
-					<dl>
-						<dt><label for="require_watch_fio">фио</label></dt>
-						<dd><input id="require_watch_fio" type="text" name="fio" tabindex="1"></dd>
-					</dl>
-					<dl>
-						<dt><label for="require_watch_phone">телефон</label></dt>
-						<dd><input id="require_watch_phone" type="tel" name="phone" tabindex="2"></dd>
-					</dl>						
-				</fieldset>
-				<fieldset>
-					<dl>
-						<dt><label for="require_watch_email">email</label></dt>
-						<dd><input id="require_watch_email" type="email" name="email" tabindex="3"></dd>
-					</dl>
-				</fieldset>
-				<fieldset>
-					<label for="require_watch_msg">ваше сообщение</label>
-					<textarea name="msg" id="require_watch_msg" cols="30" rows="5" tabindex="4"></textarea>		
-				</fieldset>
-				<!--
-				<fieldset>		
-					<legend>Проявите картинку при помощи ползунка</legend>				
-					<div class="azureus_check">
-						<div class="content">
-							<img src="img/azureus_check.png" height="90" width="124">
-							<div class="bg"></div>
-						</div>
-						<nav>
-							<input type="range" value="0">
-						</nav>
-					</div>
-				</fieldset>		
-				-->
-				<div class="submit">
-					<input type="hidden" name="type" value="require_watch">
-					<input id="button5" type="submit" value="Записаться на просмотр" class="btn btn-bg">
-				</div>
-			</form>
-		</div>
-	</div>
-	*/ ?>
+
 	<div class="popup" data-name="require_watch2" style="width: 960px;">
 		<div class="sprite popupCloseBTN"></div>
 		<!-- <h2 style="padding: 0px;"><span style="font-size: 160% !important;">Подарок за покупку!</span></h2> -->
@@ -143,7 +96,7 @@
 <div class="popup modal-dialog modal-lg modal-docs" data-name="docs">
 	<div class="sprite popupCloseBTN"></div>
 		<div class="modal-header">
-			<h4 class="modal-title text-uppercase text-left">Документы</h4>
+			<h4 class="modal-title text-uppercase text-center">Документы</h4>
 		</div>
 		<div class="modal-content content">
 			<div class="modal-body">
