@@ -1,0 +1,11 @@
+@import url('reset.css');
+
+.sprite{display: inline-block; overflow:hidden; background-repeat: no-repeat; background-image:url('../img/sprites.png');}
+.color-logo {width:164px; height:147px; background-position: -0px -141px}
+.flex{display: -webkit-flex; display: -ms-flexbox; display: flex}
+
+html, body{font-family: Arial; font-size: 16px;}
+#head{margin: 20px; justify-content: space-between; align-items: center;}
+#layouts{text-align: center; justify-content: space-between; align-items: center;}
+.phone{font-size: 150%}
+.panel{display: none}
