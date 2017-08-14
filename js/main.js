@@ -132,6 +132,9 @@ $(document).ready(function(){
 
 		if(anchor.length > 0){
 			$('html, body').animate({scrollTop: $(anchor).offset().top});
+			$('.menu').removeClass('active');
+			$('#menuBTN').removeClass('active');
+			$('#logo').removeClass('open');
 		}	
 
 		return;
