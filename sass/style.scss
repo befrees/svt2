@@ -323,11 +323,20 @@ $orange: #fb995a;
     }
   }
   .modal {
-    .modal-lg {
-      width: auto;
-    }
     .modal-header .modal-title {
       font-size: 180%;
+      
+    }
+    .modal-lg {
+      width: auto;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+        &.modal-about .modal-header .modal-title {
+        font-size: 148%;
+        margin-bottom: 25px;
+      }
     }
     .modal-layout-one {
       .modal-title {
