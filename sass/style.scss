@@ -4,6 +4,7 @@
 @import '../img/sprite';
 
 $orange: #fb995a;
+$green: #397c33;
 
 
 // $mediatablet: screen and (max-width: 768px);
@@ -170,8 +171,8 @@ $orange: #fb995a;
 
 #contacts .btnfooter {
     width: 215px;
-    color: #454545;
-    border: 1px solid #454545;
+    // color: #454545;
+    // border: 1px solid #454545;
     padding: 10px;
 }
 
@@ -494,20 +495,21 @@ $orange: #fb995a;
     display: table;
     margin: auto;
     cursor: pointer;
-    border: 1px solid #fff; // color: #fff;
+    border: 1px solid #454545; // color: #fff;
+    color: #454545;
     font-size: 112%;
     padding: 15px 20px;
     border-radius: 15px;
-    -webkit-transition: 0.5s ease-in-out;
-    -moz-transition: 0.5s ease-in-out;
-    -o-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .btn:hover,
 .btn:focus {
-    background-color: #fff;
-    color: #2075bf;
+    background-color: #454545;
+    color: #fff;
 }
 
 
@@ -1160,10 +1162,13 @@ section {
     width: 250px;
     border: none;
     line-height: 48px;
-    color: #e58141;
-    @include btnGrad();
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    transition: color .2s leaner;
     &:hover {
-        color: #2075bf;
+        color: $orange;
+        @include btnGrad();
     }
 }
 
@@ -1360,6 +1365,9 @@ section {
     }
     .benefits-entry {
         padding: 20px 0 20px;
+        .h3 {
+            color: $orange;
+        }
         ._text {
             display: flex;
             justify-content: space-between;
@@ -1378,6 +1386,10 @@ section {
             background: transparent;
             outline: none;
             margin-right: 8px;
+            &:hover {
+                background: rgb(61, 61, 61);
+                color: #fff;
+            }
         }
     }
 }
@@ -1558,6 +1570,11 @@ section {
         color: #fff;
         border: 1px solid #fff;
         width: 250px;
+        &:hover {
+            border-color: $orange;
+            color: $orange;
+            background: #fff;
+        }
     }
     &._level-1 {
         h2 {
@@ -2282,7 +2299,7 @@ form .azureus_check>.content .bg {
     outline: none !important;
 }
 .block-docs {
-    background: #397c33;
+    background: $green;
     color: #fff;
     padding: 37px 0 17px;
     .title-caption {
@@ -2309,15 +2326,28 @@ form .azureus_check>.content .bg {
     .btn-open-docs {
         outline: none;
         padding: 12px;
-        background: #eeffec;
-        background: -moz-linear-gradient(left,  #eeffec 0%, #ffffff 100%);
-        background: -webkit-linear-gradient(left,  #eeffec 0%,#ffffff 100%);
-        background: linear-gradient(to right,  #eeffec 0%,#ffffff 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeffec', endColorstr='#ffffff',GradientType=1 );
-
+        color: #fff;
+        border: 1px solid #fff;
+        background: $green;
+        transition: color 200ms leaner;
+        &:hover {
+            background: #eeffec;
+            background: -moz-linear-gradient(left,  #eeffec 0%, #ffffff 100%);
+            background: -webkit-linear-gradient(left,  #eeffec 0%,#ffffff 100%);
+            background: linear-gradient(to right,  #eeffec 0%,#ffffff 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeffec', endColorstr='#ffffff',GradientType=1 );
+            color: $green;
+        }
     }
 }
 .modal-docs {
+    background: $green;
+    .modal-content {
+        background: transparent;
+    }
+    .modal-title {
+        color: #3fa835;
+    }
     @media screen and (max-width: 768px) {
         & {
             margin-left: 0;

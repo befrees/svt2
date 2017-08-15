@@ -109,7 +109,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                     </div>
                     <div class="item _b6">
-                        <div class="title" style="bottom: 5px;">Лучшая новостройка <br> Украины комфорт-класса</div>
+                        <div class="title">Лучшая новостройка <br> Украины комфорт-класса</div>
                         <div class="thumb"></div>
                         <div class="sprite arrow arrow-right"></div>
                         <div class="hover">

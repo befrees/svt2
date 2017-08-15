@@ -26,7 +26,8 @@ $(document).ready(function(){
 		$('#intro').css({minHeight: $(window).height()+'px'});
 	}
 	$('input:checkbox').styler();
-	$('body').on('change', '.ckb-l1', function(e){
+	$('body').on('change', 'input.ckb-l1', function(e){
+		$('input.ckb-l1:checked').not(this).prop('checked', false).trigger('refresh');
 		var layouts_tier_slider = '#layouts_tier-1';
 		$(layouts_tier_slider).slick('slickUnfilter');
 		var showclasses = [];
